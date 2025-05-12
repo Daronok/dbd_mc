@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/stick"
+    },
+
+    "overrides": [
+        {"predicate": {"custom_model_data":100}, "model": "item/environment/pallet/pallet"},
+
+
+
+
+        {"predicate": {"custom_model_data":200}, "model": "item/ds_placeholders/entities/boss/boss"}
+    ]
+}
