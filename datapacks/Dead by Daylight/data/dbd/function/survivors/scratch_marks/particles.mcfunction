@@ -1,0 +1,3 @@
+execute at @e[type=marker,scores={state=80..},tag=smy] run particle dust{color:[1.000,0.635,0.000],scale:4} ~ ~ ~ 1 0 1 0.1 1 force @a[tag=see_sm]
+execute at @e[type=marker,scores={state=80..},tag=smx] run particle dust{color:[1.000,0.635,0.000],scale:4} ~ ~ ~ 0 1 1 0.1 1 force @a[tag=see_sm]
+execute at @e[type=marker,scores={state=80..},tag=smz] run particle dust{color:[1.000,0.635,0.000],scale:4} ~ ~ ~ 1 1 0 0.1 1 force @a[tag=see_sm]
