@@ -5,7 +5,6 @@ execute as @a at @s run function dbd:player_model/move
 
 #inputs
 execute as @a[scores={jump=1..}] at @s run function dbd:inputs/jump
-execute as @a[scores={coas=1..}] at @s run function dbd:inputs/coas
 execute as @a[scores={coas_drop=1..}] at @s run function dbd:inputs/coas_drop
 execute as @a[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:-106b}]}] at @s run function dbd:inputs/coas_offhand
 execute as @a run function dbd:inputs/vel
@@ -40,7 +39,5 @@ execute if entity @e[scores={state=80..},type=marker,tag=scratch_mark] run funct
 kill @e[tag=scratch_mark,scores={state=80..}]
 
 #chase
-
-execute as @e[tag=survivor,scores={chase=1..}] at @s run function dbd:chase/survivor
 execute as @a[tag=killer,scores={chase=1..}] at @s run function dbd:chase/killer
 
