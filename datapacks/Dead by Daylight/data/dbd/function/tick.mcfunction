@@ -39,5 +39,5 @@ execute if entity @e[scores={state=80..},type=marker,tag=scratch_mark] run funct
 kill @e[tag=scratch_mark,scores={state=80..}]
 
 #chase
-execute as @a[tag=killer,scores={chase=1..}] at @s run function dbd:chase/killer
+execute as @a[scores={chase=1..}] at @s run function dbd:chase/chase_tick
 
