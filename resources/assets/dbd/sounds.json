@@ -1,0 +1,8 @@
+{
+    "chase_default_3": {
+        "subtitle": "Chase Music",
+        "sounds": [
+            "dbd:music/default_3"
+        ]
+    }
+}
